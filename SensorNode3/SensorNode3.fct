@@ -1,0 +1,8 @@
+main DSTACK_USAGE:4 DSTACK_LEVEL:4 FILE:"SensorNode3.c" LINE:340
+get_request_and_send_response DSTACK_USAGE:12 DSTACK_LEVEL:16 FILE:"SensorNode3.c" LINE:209
+printf DSTACK_USAGE:10 DSTACK_LEVEL:26 FILE:"..\..\lib\stdio.lib" LINE:1468
+_print DSTACK_USAGE:94 DSTACK_LEVEL:120 FILE:"..\..\lib\stdio.lib" LINE:1154
+_ftoe DSTACK_USAGE:16 DSTACK_LEVEL:136 FILE:"..\..\lib\stdio.lib" LINE:1098
+floor DSTACK_USAGE:4 DSTACK_LEVEL:140 FILE:"..\..\lib\math.lib" LINE:659
+ftrunc DSTACK_USAGE:4 DSTACK_LEVEL:144 FILE:"..\..\lib\math.lib" LINE:544
+timer0_ovf_isr DSTACK_USAGE:7 DSTACK_LEVEL:151 FILE:"SensorNode3.c" LINE:110

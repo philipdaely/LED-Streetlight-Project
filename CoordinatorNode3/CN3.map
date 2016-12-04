@@ -1,0 +1,48 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+SERVER_IP                                                         0A8Bh       15
+rx_buffer0                                                        0A9Ah     1000
+rx_buffer1                                                        0E82h     1000
+rx_buffer2                                                        126Ah      255
+rx_buffer3                                                        1369h      255
+rx_wr_index2                                                      1468h        1
+rx_rd_index2                                                      1469h        1
+rx_counter2                                                       146Ah        1
+rx_wr_index3                                                      146Bh        1
+rx_rd_index3                                                      146Ch        1
+rx_counter3                                                       146Dh        1
+poutput                                                           146Eh        1
+milSecCounter                                                     146Fh        4
+dev_id_chk                                                        1473h        5
+tempervalue                                                       1478h        4
+ledID                                                             147Ch        8
+led_64bitaddress_high                                             1484h       16
+led_64bitaddress_low                                              1494h       16
+temperature                                                       14A4h        4
+humidity                                                          14A8h        4
+dustconcentration                                                 14ACh        2
+current3k                                                         14AEh        4
+current5k                                                         14B2h        4
+voltage3k                                                         14B6h        2
+voltage5k                                                         14B8h        2
+p_S1010024000                                                     14BAh        2
+_seed                                                             14BCh        4
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+rx_wr_index0                                                      R3,R4        2
+rx_rd_index0                                                      R5,R6        2
+rx_counter0                                                       R7,R8        2
+rx_wr_index1                                                      R9,R10       2
+rx_rd_index1                                                      R11,R12      2
+rx_counter1                                                       R13,R14      2
+rx_buffer_overflow0                                               GPIOR0.0  1bit
+rx_buffer_overflow1                                               GPIOR0.1  1bit
+rx_buffer_overflow2                                               GPIOR0.2  1bit
+rx_buffer_overflow3                                               GPIOR0.3  1bit
